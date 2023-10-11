@@ -1,6 +1,6 @@
-document.addEventListener('DOMContentLoaded', function() {
-    new WOW().init();
-  });
+// document.addEventListener('DOMContentLoaded', function() {
+//     new WOW().init();
+//   });
 let wow = new WOW(
     {
       boxClass:     'wow',      // animated element css class (default is wow)

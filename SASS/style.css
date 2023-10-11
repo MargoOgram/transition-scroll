@@ -80,6 +80,7 @@ body {
 .problem {
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .problem__title {
@@ -91,8 +92,8 @@ body {
   width: 450px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 15px;
+  justify-content: center;
+  gap: 16px;
   margin: auto;
 }
 
