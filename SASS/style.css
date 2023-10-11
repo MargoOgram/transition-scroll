@@ -1,0 +1,151 @@
+@charset "UTF-8";
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Object Sans Regular", sans-serif;
+  background-color: #081826;
+  margin: 0;
+}
+
+.link {
+  display: flex;
+  text-decoration: none;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+  margin-bottom: 25%;
+}
+
+.hero__title {
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.hero__sub-title {
+  font-family: "Object Sans Light", sans-serif;
+  font-size: 30px;
+  margin: auto;
+  color: antiquewhite;
+}
+
+.rectangle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.rectangle__first {
+  position: absolute;
+  width: 212px;
+  height: 350px;
+  background-image: url(/image/card-dor.png);
+  top: 110px; /* Зміщення вниз на 20px */
+  left: 450px; /* Зміщення вліво на 30px */
+}
+
+.rectangle__second {
+  width: 226px;
+  height: 435px;
+  background-image: url(/image/doorRed.png);
+}
+
+.site-now {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rectangle__title {
+  margin: auto;
+  color: antiquewhite;
+  width: 400px;
+  text-align: center;
+}
+
+.problem {
+  display: flex;
+  flex-direction: column;
+}
+
+.problem__title {
+  margin: auto;
+  color: antiquewhite;
+}
+
+.problem__list {
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  margin: auto;
+}
+
+.problem__item {
+  font-size: 16px;
+  border: #70d8e4;
+  border-radius: 10px;
+  background-color: #70d8e4;
+  padding: 5px;
+}
+
+.problem__text {
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+
+.inconvenience {
+  display: flex;
+  flex-direction: column;
+}
+
+.inconvenience__title {
+  margin: auto;
+  color: antiquewhite;
+}
+
+.inconvenience__text {
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+
+.inconvenience__list {
+  width: 500px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: auto;
+}
+
+.inconvenience__item {
+  border: #70d8e4;
+  border-radius: 10px;
+  background-color: #70d8e4;
+  padding: 5px;
+}
+
+.final__title {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100px;
+  height: 200px;
+}/*# sourceMappingURL=style.css.map */
