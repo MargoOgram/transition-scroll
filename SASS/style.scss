@@ -50,8 +50,10 @@ margin-bottom: 25%;
     width: 212px;
     height: 350px;
     background-image: url(/image/card-dor.png);
-    top: 110px; /* Зміщення вниз на 20px */
-    left: 450px; /* Зміщення вліво на 30px */
+    top: 110px;
+    
+    /* Зміщення вниз на 20px */
+    // left: 450px; /* Зміщення вліво на 30px */
     // background-size: cover;
     // background-position: center;
     // transition: transform 0.3s;
@@ -76,7 +78,7 @@ margin-bottom: 25%;
 .problem{
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 .problem__title{ 
     margin: auto;
